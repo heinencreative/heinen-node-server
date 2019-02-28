@@ -1,0 +1,19 @@
+{
+  "name": "heinen-node-server",
+  "version": "1.0.0",
+  "description": "Node server example",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "watch": "nodemon ./src/server.js"
+  },
+  "author": "Chris Heinen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
